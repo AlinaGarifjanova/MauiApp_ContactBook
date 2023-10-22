@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Assignment_07
+build_property.ProjectDir = C:\Skolan\C-Sharp\Repetion\Repetion_02\Assignment_07\Assignment_07\
+
+[C:/Skolan/C-Sharp/Repetion/Repetion_02/Assignment_07/Assignment_07/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Assignment_07.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Skolan/C-Sharp/Repetion/Repetion_02/Assignment_07/Assignment_07/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Assignment_07.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Skolan/C-Sharp/Repetion/Repetion_02/Assignment_07/Assignment_07/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Assignment_07.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Skolan/C-Sharp/Repetion/Repetion_02/Assignment_07/Assignment_07/Mvvm/Views/AddPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Assignment_07.Mvvm.Views.AddPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Mvvm\Views\AddPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Mvvm\Views\AddPage.xaml
+
+[C:/Skolan/C-Sharp/Repetion/Repetion_02/Assignment_07/Assignment_07/Mvvm/Views/DetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Assignment_07.Mvvm.Views.DetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Mvvm\Views\DetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Mvvm\Views\DetailsPage.xaml
+
+[C:/Skolan/C-Sharp/Repetion/Repetion_02/Assignment_07/Assignment_07/Mvvm/Views/EditPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Assignment_07.Mvvm.Views.EditPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Mvvm\Views\EditPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Mvvm\Views\EditPage.xaml
+
+[C:/Skolan/C-Sharp/Repetion/Repetion_02/Assignment_07/Assignment_07/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Assignment_07.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Skolan/C-Sharp/Repetion/Repetion_02/Assignment_07/Assignment_07/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Assignment_07.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

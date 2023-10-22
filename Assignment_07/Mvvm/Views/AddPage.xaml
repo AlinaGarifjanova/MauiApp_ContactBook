@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:Assignment_07.Mvvm.ViewModels"
+             x:DataType="viewModels:AddPageViewModel"
+             x:Class="Assignment_07.Mvvm.Views.AddPage"
+             Title="New Contact">
+  
+    <VerticalStackLayout Spacing="20" Margin="20,20,20,0">
+      
+        <Frame Padding="10,2,10,2">
+            <HorizontalStackLayout>
+                <Label Text="First name:" VerticalOptions="Center" WidthRequest="120"/>
+                <Entry Text="{Binding Contact.FirstName}" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame Padding="10,2,10,2">
+            <HorizontalStackLayout>
+                <Label Text="Last name:" VerticalOptions="Center" WidthRequest="120"/>
+               <Entry Text="{Binding Contact.LastName}" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame Padding="10,2,10,2">
+            <HorizontalStackLayout>
+                <Label Text="Email:" VerticalOptions="Center" WidthRequest="120"/>
+                <Entry Text="{Binding Contact.Email}" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame Padding="10,2,10,2">
+            <HorizontalStackLayout>
+                <Label Text="Phone number:" VerticalOptions="Center" WidthRequest="120"/>
+                <Entry Text="{Binding Contact.PhoneNumber}" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame Padding="10,2,10,2">
+            <HorizontalStackLayout>
+                <Label Text="Street name:" VerticalOptions="Center" WidthRequest="120"/>
+                <Entry Text="{Binding Contact.Address.StreetName}" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame Padding="10,2,10,2">
+            <HorizontalStackLayout>
+                <Label Text="Street Number:" VerticalOptions="Center" WidthRequest="120"/>
+                <Entry Text="{Binding Contact.Address.StreetNumber}" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame Padding="10,2,10,2">
+            <HorizontalStackLayout>
+                <Label Text="Postal Code:" VerticalOptions="Center" WidthRequest="120"/>
+                <Entry Text="{Binding Contact.Address.PostalCode}" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame Padding="10,2,10,2">
+            <HorizontalStackLayout>
+                <Label Text="City:" VerticalOptions="Center" WidthRequest="120"/>
+                <Entry Text="{Binding Contact.Address.City}" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Command="{Binding GoBackCommand}" Text="Back" Grid.Column="0" HorizontalOptions="Start" />
+            <Button Command="{Binding SaveContactCommand}" Text="Save" Grid.Column="1" HorizontalOptions="End" />
+        </Grid>
+
+
+    </VerticalStackLayout>
+</ContentPage>

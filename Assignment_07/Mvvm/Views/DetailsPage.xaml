@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:Assignment_07.Mvvm.ViewModels"
+             x:DataType="viewModels:DetailsPageViewModel"
+             x:Class="Assignment_07.Mvvm.Views.DetailsPage"
+             Title="Contact Details">
+
+    <Grid RowDefinitions="auto, *" Padding="30" RowSpacing="30">
+        <Button Grid.Row="0" Command="{Binding GoBackCommand}" Text="Back" HorizontalOptions="Start" />
+        <Button Grid.Row="0" Command="{Binding GoToEditCommand}" Text="Edit" HorizontalOptions="End"/>
+
+
+        <VerticalStackLayout Grid.Row="1">
+            <HorizontalStackLayout>
+                <Label Text="Name:" FontAttributes="Bold" FontSize="16" Margin="0,0,10,0"/>
+                <Label Text="{Binding Contact.FirstName}" FontSize="16" Margin="0,0,10,0"/>
+                <Label Text="{Binding Contact.LastName}" FontSize="16"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout>
+                <Label Text="Phone number:" FontAttributes="Bold" FontSize="16" Margin="0,20,10,0"/>
+                <Label Text="{Binding Contact.PhoneNumber}" FontSize="16" Margin="0,20,10,0"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout>
+                <Label Text="Email:" FontAttributes="Bold" FontSize="16" Margin="0,20,10,0"/>
+                <Label Text="{Binding Contact.Email}" FontSize="16" Margin="0,20,10,0"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout>
+                <Label Text="Street:" FontAttributes="Bold" FontSize="16" Margin="0,20,10,0"/>
+                <Label Text="{Binding Contact.Address.StreetName}" FontSize="16" Margin="0,20,10,0"/>
+                <Label Text="{Binding Contact.Address.StreetNumber}" FontSize="16" Margin="0,20,10,0"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout>
+                <Label Text="Postal code:" FontAttributes="Bold" FontSize="16" Margin="0,20,10,0"/>
+                <Label Text="{Binding Contact.Address.PostalCode}" FontSize="16" Margin="0,20,10,0"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout>
+                <Label Text="City:" FontAttributes="Bold" FontSize="16" Margin="0,20,10,0"/>
+                <Label Text="{Binding Contact.Address.City}" FontSize="16" Margin="0,20,10,0"/>
+            </HorizontalStackLayout>
+            <Button Command="{Binding DeleteContactCommand}" Text="Delete" BackgroundColor="Red" VerticalOptions="End" HorizontalOptions="End"/>
+        </VerticalStackLayout>
+
+    </Grid>
+</ContentPage>

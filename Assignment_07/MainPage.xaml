@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:Assignment_07.Mvvm.ViewModels"
+             xmlns:models="clr-namespace:Assignment_07.Mvvm.Models"
+             x:DataType="{x:Type viewModels:MainPageViewModel}"
+             x:Class="Assignment_07.MainPage">
+
+
+
+    <Grid RowDefinitions="auto, *" Padding="30" RowSpacing="20">
+        
+        <Button Grid.Row="0" Command="{Binding GoToAddCommand}" Text="+" HorizontalOptions="End" VerticalOptions="Start" />
+        <VerticalStackLayout Grid.Row="1">
+        <CollectionView ItemsSource="{Binding Contacts}">
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="{x:Type models:ContactModel}">
+                    <Frame Margin="20" >
+                        <Grid ColumnDefinitions="auto,auto" ColumnSpacing="5" Margin="5">
+
+                            <Label Grid.Column="0" Text="{Binding FirstName}" />
+                            <Label Grid.Column="1" Text="{Binding LastName}"/>
+
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer CommandParameter="{Binding .}" Command="{Binding Path=GoToDetailsCommand, Source={RelativeSource AncestorType={x:Type viewModels:MainPageViewModel}}}"/>
+                            </Grid.GestureRecognizers>
+
+                        </Grid>
+                    </Frame>
+
+                </DataTemplate>
+
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+        </VerticalStackLayout>
+
+    </Grid>  
+    
+  
+
+</ContentPage>

@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Assignment_07</name>
+    </assembly>
+    <members>
+        <member name="T:Assignment_07.Mvvm.ViewModels.AddPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Assignment_07.Mvvm.ViewModels.AddPageViewModel.Contact">
+            <inheritdoc cref="F:Assignment_07.Mvvm.ViewModels.AddPageViewModel.contact"/>
+        </member>
+        <member name="F:Assignment_07.Mvvm.ViewModels.AddPageViewModel.saveContactCommand">
+            <summary>The backing field for <see cref="P:Assignment_07.Mvvm.ViewModels.AddPageViewModel.SaveContactCommand"/>.</summary>
+        </member>
+        <member name="P:Assignment_07.Mvvm.ViewModels.AddPageViewModel.SaveContactCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Assignment_07.Mvvm.ViewModels.AddPageViewModel.SaveContact"/>.</summary>
+        </member>
+        <member name="F:Assignment_07.Mvvm.ViewModels.AddPageViewModel.goBackCommand">
+            <summary>The backing field for <see cref="P:Assignment_07.Mvvm.ViewModels.AddPageViewModel.GoBackCommand"/>.</summary>
+        </member>
+        <member name="P:Assignment_07.Mvvm.ViewModels.AddPageViewModel.GoBackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Assignment_07.Mvvm.ViewModels.AddPageViewModel.GoBack"/>.</summary>
+        </member>
+        <member name="T:Assignment_07.Mvvm.ViewModels.DetailsPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Assignment_07.Mvvm.ViewModels.DetailsPageViewModel.Contact">
+            <inheritdoc cref="F:Assignment_07.Mvvm.ViewModels.DetailsPageViewModel.contact"/>
+        </member>
+        <member name="F:Assignment_07.Mvvm.ViewModels.DetailsPageViewModel.goToEditCommand">
+            <summary>The backing field for <see cref="P:Assignment_07.Mvvm.ViewModels.DetailsPageViewModel.GoToEditCommand"/>.</summary>
+        </member>
+        <member name="P:Assignment_07.Mvvm.ViewModels.DetailsPageViewModel.GoToEditCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Assignment_07.Mvvm.ViewModels.DetailsPageViewModel.GoToEdit"/>.</summary>
+        </member>
+        <member name="F:Assignment_07.Mvvm.ViewModels.DetailsPageViewModel.goBackCommand">
+            <summary>The backing field for <see cref="P:Assignment_07.Mvvm.ViewModels.DetailsPageViewModel.GoBackCommand"/>.</summary>
+        </member>
+        <member name="P:Assignment_07.Mvvm.ViewModels.DetailsPageViewModel.GoBackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Assignment_07.Mvvm.ViewModels.DetailsPageViewModel.GoBack"/>.</summary>
+        </member>
+        <member name="F:Assignment_07.Mvvm.ViewModels.DetailsPageViewModel.deleteContactCommand">
+            <summary>The backing field for <see cref="P:Assignment_07.Mvvm.ViewModels.DetailsPageViewModel.DeleteContactCommand"/>.</summary>
+        </member>
+        <member name="P:Assignment_07.Mvvm.ViewModels.DetailsPageViewModel.DeleteContactCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Assignment_07.Mvvm.ViewModels.DetailsPageViewModel.DeleteContact(Assignment_07.Mvvm.Models.ContactModel)"/>.</summary>
+        </member>
+        <member name="T:Assignment_07.Mvvm.ViewModels.EditPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Assignment_07.Mvvm.ViewModels.EditPageViewModel.Contact">
+            <inheritdoc cref="F:Assignment_07.Mvvm.ViewModels.EditPageViewModel.contact"/>
+        </member>
+        <member name="F:Assignment_07.Mvvm.ViewModels.EditPageViewModel.saveContactCommand">
+            <summary>The backing field for <see cref="P:Assignment_07.Mvvm.ViewModels.EditPageViewModel.SaveContactCommand"/>.</summary>
+        </member>
+        <member name="P:Assignment_07.Mvvm.ViewModels.EditPageViewModel.SaveContactCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Assignment_07.Mvvm.ViewModels.EditPageViewModel.SaveContact"/>.</summary>
+        </member>
+        <member name="F:Assignment_07.Mvvm.ViewModels.EditPageViewModel.goBackCommand">
+            <summary>The backing field for <see cref="P:Assignment_07.Mvvm.ViewModels.EditPageViewModel.GoBackCommand"/>.</summary>
+        </member>
+        <member name="P:Assignment_07.Mvvm.ViewModels.EditPageViewModel.GoBackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Assignment_07.Mvvm.ViewModels.EditPageViewModel.GoBack"/>.</summary>
+        </member>
+        <member name="T:Assignment_07.Mvvm.ViewModels.MainPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Assignment_07.Mvvm.ViewModels.MainPageViewModel.Contacts">
+            <inheritdoc cref="F:Assignment_07.Mvvm.ViewModels.MainPageViewModel.contacts"/>
+        </member>
+        <member name="F:Assignment_07.Mvvm.ViewModels.MainPageViewModel.goToAddCommand">
+            <summary>The backing field for <see cref="P:Assignment_07.Mvvm.ViewModels.MainPageViewModel.GoToAddCommand"/>.</summary>
+        </member>
+        <member name="P:Assignment_07.Mvvm.ViewModels.MainPageViewModel.GoToAddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Assignment_07.Mvvm.ViewModels.MainPageViewModel.GoToAdd"/>.</summary>
+        </member>
+        <member name="F:Assignment_07.Mvvm.ViewModels.MainPageViewModel.goToDetailsCommand">
+            <summary>The backing field for <see cref="P:Assignment_07.Mvvm.ViewModels.MainPageViewModel.GoToDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:Assignment_07.Mvvm.ViewModels.MainPageViewModel.GoToDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Assignment_07.Mvvm.ViewModels.MainPageViewModel.GoToDetails(Assignment_07.Mvvm.Models.ContactModel)"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Contact">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Contact" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Contacts">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Contacts" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Contact">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Contact" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Contacts">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Contacts" generated properties.</summary>
+        </member>
+    </members>
+</doc>
